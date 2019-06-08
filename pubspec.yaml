@@ -1,0 +1,12 @@
+# TODO: Better name and description
+name: print_beautiful
+description: 
+
+version: 0.0.0
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  ansicolor: ^1.0.2
+  equatable: ^0.2.0
+  meta: ^1.1.6
