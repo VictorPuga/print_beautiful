@@ -1,6 +1,11 @@
 # TODO: Better name and description
 name: print_beautiful
-description: 
+description: print() function that helps to understand the structure of the object printed
+
+authors:
+  - VictorPuga <victorpugaruiz@live.com.mx>
+homepage: https://github.com/VictorPuga/print_beautiful
+repository: https://github.com/VictorPuga/print_beautiful
 
 version: 0.0.0
 environment:
