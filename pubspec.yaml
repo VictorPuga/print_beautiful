@@ -7,7 +7,7 @@ authors:
 homepage: https://github.com/VictorPuga/print_beautiful
 repository: https://github.com/VictorPuga/print_beautiful
 
-version: 0.0.1
+version: 0.0.1+1
 environment:
   sdk: '>=2.0.0 <3.0.0'
 
