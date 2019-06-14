@@ -30,9 +30,9 @@ class Color extends Equatable {
         super([r, g, b, a]);
 
   Color toEightBit() {
-    if (valueType == ValueType.eightBit)
+    if (valueType == ValueType.eightBit) {
       return this;
-    else {
+    } else {
       final newR = (r * 255).round();
       final newG = (g * 255).round();
       final newB = (b * 255).round();
@@ -45,9 +45,9 @@ class Color extends Equatable {
   }
 
   Color toFloatingPoint() {
-    if (valueType == ValueType.floatingPoint)
+    if (valueType == ValueType.floatingPoint) {
       return this;
-    else {
+    } else {
       final newR = num.tryParse((r / 255).toStringAsFixed(3));
       final newG = num.tryParse((g / 255).toStringAsFixed(3));
       final newB = num.tryParse((b / 255).toStringAsFixed(3));
