@@ -148,10 +148,15 @@ colorize(object, StringBuffer sb, int level,
     case 'null':
       sb.write(nil(level, shouldIndent));
       break;
+    // TODO: Implement shouldIndent when it's inside a List
+    // (and check for other cases)
+
+    // TODO: Check for empty List/Map
     case 'List':
       l(object['values'], sb, level);
       break;
     case 'Map':
+      // TODO's above
       m(object, sb, level);
       break;
   }
@@ -160,8 +165,8 @@ colorize(object, StringBuffer sb, int level,
 }
 
 color(Map representation) {
-  _test();
-  // return colorize(representation, StringBuffer(), 0, false, true);
+  // _test();
+  return colorize(representation, StringBuffer(), 0, false, true);
 }
 
 _test() {
